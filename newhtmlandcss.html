@@ -74,6 +74,17 @@
        .links{
         background-color: rgb(17, 15, 15);
        }
+       .form{
+        color: #ddff1d;;
+        text-align: center;
+        text-decoration: underline;
+        font-family: fantasy;
+       }
+       .submit{
+        font-style: italic;
+        color: #fd2626;
+        
+       }
        
     </style>
    
@@ -122,8 +133,33 @@
     
     I have a fascination for languages, so I am learning the .......... language."</P>
 <body>
-
+  
 <center><img src="c:\Users\HP\Downloads\pic1.jpg" alt="" width="400"></center>
+
+<form action="">
+   <center><h2>DATA COLLECTION FORM</h2></center>
+    <center><h3>information required</h3></center>
+    <p class="form">First Name: <input type="text" name="firstname" required ></p>
+    <p class="form">Last Name: <input type="text" name="lastname" required></p>
+    <fieldset>
+        <legend class="form">Gender</legend>
+    <p class="submit" >Male <input type="radio" name="gender" id="Male" required>
+       Female <input type="radio" name="gender"  id="Female" required>
+       Other <input type="radio" name="gender" id="Other" required>
+    </p>
+    </fieldset>
+    <p class="form">Address : <textarea name="Address" id="" cols="40" rows="4"></textarea></p>
+    <p class="form">Email : <input type="email" name="E-mail" id="email" required></p>
+    <p class="form">Password : <input type="password" name="Password" id="password" required></p>
+    <p class="form">Mobile NO.: <input type="number" name="Mobile NO." id="Mobile NO." required></p>
+   <center> <select name="ID" id="ID"></center>
+        <option value="">select the id option</option>
+        <option value="passport">passport</option>
+        <option value="adharcard">adharcard</option>
+        <option value="driving license">driving license</option>
+    </select>
+    <input type="submit" value="Submit" class="submit">
+    </form>
 </div>
   <div class="links"> <hr>
     <h3 class="lin">Here you can get more information from other sites</h3>
